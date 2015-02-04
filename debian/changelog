@@ -1,3 +1,12 @@
+ngcp-mediaproxy-ng (2.3.8.2+0~mr3.2.2.2) unstable; urgency=low
+
+  [ Richard Fuchs ]
+  * [b22dde0] MT#11357 fix race condition during call teardown
+
+  [ Sipwise Jenkins Builder ]
+
+ -- Sipwise Jenkins Builder <jenkins@sipwise.com>  Wed, 04 Feb 2015 19:35:04 +0100
+
 ngcp-mediaproxy-ng (2.3.8.1+0~mr3.2.2.1) unstable; urgency=low
 
   [ Andrew Pogrebennyk ]
