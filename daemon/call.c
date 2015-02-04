@@ -566,6 +566,9 @@ static int stream_packet(struct streamrelay *sr_incoming, str *s, struct sockadd
 	m = c->callmaster;
 	smart_ntop_port(addr, fsin, sizeof(addr));
 
+	if (p_incoming->shutdown || p_outgoing->shutdown)
+		return 0;
+
 	if (sr_incoming->stun && is_stun(s)) {
 		stun_ret = stun(s, sr_incoming, fsin);
 		if (!stun_ret)
@@ -1800,6 +1803,7 @@ static void kill_callstream(struct callstream *s) {
 	for (i = 0; i < 2; i++) {
 		p = &s->peers[i];
 
+		p->shutdown = 1;
 		unkernelize(p);
 
 		for (j = 0; j < 2; j++) {

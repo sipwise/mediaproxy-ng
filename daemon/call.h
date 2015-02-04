@@ -132,6 +132,7 @@ struct peer {
 	int			kernelized:1;
 	int			filled:1;
 	int			confirmed:1;
+	int			shutdown:1;
 };
 struct callstream {
 	struct obj		obj;
