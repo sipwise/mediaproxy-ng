@@ -1,0 +1,9 @@
+Verified+1: Jenkins Jenkins <jenkins@sipwise.com>
+Code-Review+1: Alexander Lutay <alutay@sipwise.com>
+Code-Review+1: Michael Prokop <mprokop@sipwise.com>
+Code-Review+2: Andreas Granig <agranig@sipwise.com>
+Submitted-by: Guillem Jover <gjover@sipwise.com>
+Submitted-at: Tue, 12 Jan 2016 12:06:45 +0100
+Reviewed-on: http://gerrit.mgm.sipwise.com/3863
+Project: mediaproxy-ng
+Branch: refs/heads/master
