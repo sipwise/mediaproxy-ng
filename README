@@ -1,0 +1,5 @@
+repository discontinued
+-----------------------
+
+mediaproxy-ng has been renamed to rtpengine and available on GitHub: https://github.com/sipwise/rtpengine
+The current repository is for historical purposes only until old NGCP releases are supported.
